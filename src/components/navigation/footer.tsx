@@ -1,5 +1,6 @@
 import { useTheme, Tag, Spacer, Link } from '@geist-ui/core';
 import NextLink from 'next/link';
+import dynamicWidth from '@/lib/dynamic-width';
 import Logo from '../logo';
 
 const Footer: React.FC = () => {
