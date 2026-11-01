@@ -56,7 +56,8 @@ const App = ({ Component, pageProps }: AppProps) => {
         <CssBaseline />
         <PrefersContext.Provider value={{ themeType, switchTheme }}>
           <Menu />
-          <Component {...pageProps} />
+          <>\n        <Component {...pageProps} />\n                <script defer src="/_vercel/insights/script.js" />
+      </>
           <Footer />
         </PrefersContext.Provider>
       </GeistProvider>
